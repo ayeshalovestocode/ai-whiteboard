@@ -1,19 +1,40 @@
-# 🖌️ AI Whiteboard
+# ✨ AI Whiteboard
 
-An interactive **AI-powered whiteboard** that lets you write in the air with your finger ✋ and see your handwriting appear on screen.  
-Built with **Python, OpenCV, and MediaPipe**.
+An **AI-powered interactive whiteboard** that uses **hand tracking with MediaPipe** to allow drawing, erasing, hovering, and color selection using finger gestures. It also includes options to record your drawing sessions.
 
 ---
 
 ## 🚀 Features
-- ✍️ Write in the air using your index finger  
-- 🎨 Pink handwriting with smooth, consistent strokes  
-- 🖼️ Opaque drawing (no transparency issues)  
-- ⌨️ Press `q` to quit the app safely  
+- ✍️ Draw using your **index finger**  
+- 🧹 Erase using **index + middle finger**  
+- 🎯 Hover & stop using **index + pinky finger**  
+- 🎨 Color palette for selecting brush colors  
+- 📹 Record option (`r` key) to save your sessions as `.avi` files  
+- 🖼️ Snapshot option (`s` key)  
+- ➕/➖ Adjust pen size  
+- 🔄 Clear screen with `c`  
+- ❌ Quit with `q`
 
 ---
 
-## 📦 Requirements
-Install dependencies with:
-```bash
-pip install -r requirements.txt
+## 🎮 Controls
+| Action | Gesture / Key |
+|--------|---------------|
+| Draw | Index finger |
+| Erase | Index + Middle finger |
+| Hover / Stop | Index + Pinky finger |
+| Change Color | Select from palette |
+| Increase Pen Size | `+` |
+| Decrease Pen Size | `-` |
+| Record | `r` |
+| Snapshot | `s` |
+| Clear Whiteboard | `c` |
+| Quit | `q` |
+
+---
+
+## 🛠️ Installation
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/ayeshalovestocode/ai-whiteboard.git
+   cd ai-whiteboard
